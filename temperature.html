@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="content" viewport="width=device-width, initial-scale=1.0">
+        <title>Temperature Converter</title>
+        <link rel="stylesheet" href="temperature.css">
+    </head>
+    <body>
+        <h1>Joshua Sankar's Temperature Conveter</h1>
+        <h2>Temperature conversions for Fahrenheit, Celsius, Kelvin, Rankine</h2>
+
+        <div id="temperature-value">
+            <input id="temperature-input" type="text" text="Temperature">
+        </div>
+        <div id="temperture-unit-conversion">
+            <p>From</p>
+            <select id="temperature-selection-from">
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celsius</option>
+                <option value="Kelvin">Kelvin</option>
+                <option value="Rankine">Rankine</option>
+            </select>
+            <p>To</p>
+            <select id="temperature-selection-to">
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celsius</option>
+                <option value="Kelvin">Kelvin</option>
+                <option value="Rankine">Rankine</option>
+            </select>
+        </div>
+
+        <button id="submit">Submit</button>
+        <div id="results-div"></div>
+        <script src="temperature.js"></script>
+    </body>    
+</html>
