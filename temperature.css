@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 80px;
+}
+
+h2 {
+    color: grey;
+
+}
+
+#temperature-value, #temperature-unit-conversion {
+    margin-bottom: 15px;
+}
+
+#temperature-input {
+    font-size: 1em;
+    padding: 10px;
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#temperature-unit-conversion {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#temperature-unit-conversion p {
+
+}
+
+select {
+    border: 1px solid #ccc;
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#results-div {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
