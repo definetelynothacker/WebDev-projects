@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="charts.css">
+        <title>Charts</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    </head>
+    <body>
+        <img id="pie-chart-img" src="pie-chart.png">
+        <h1 id="pie-chart-header">Pie Chart Creator</h1>
+         <div id="enter-data">
+            <h1>Enter Data</h1>
+            <label for="c-title">Chart Title</label><br>
+            <input type="text" id="chart-title-input" name="c-title" placeholder="Title"><br>
+            <label for="c-labels">Enter Labels Separated by comma</label><br>
+            <input type="text" id="labels" name="c-labels" placeholder="Rice, Fish, Chicken, Juice"><br>
+            <label for="c-values">Enter Value Separated by comma</label><br>
+            <input type="text" id="values" name="c-values" placeholder="120, 35, 63, 1"><br>
+            <label for="c-position">Legend Position</label><br>
+            <input type="text" id="l-position" name="c-position" placeholder="Legend"><br>
+            <button id="create-button">Create Chart</button>
+        </div>
+
+         <div id="display-pie">
+            <canvas id="pie-chart" style="width:100%;max-width:700px"></canvas>
+         </div>
+        <script src="charts.js"></script>
+    </body>
+</html>

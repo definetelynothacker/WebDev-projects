@@ -1,0 +1,45 @@
+#pie-chart-img{
+    width: 28px;
+    height: 28px;
+}
+
+#pie-chart-header{
+    color: rgb(30, 30, 97);
+}
+
+h1{
+    text-shadow: 1px 1px 2px darkgray;
+}
+
+label{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#pie-chart-img, #pie-chart-header{
+    display: inline-block;
+}
+
+#enter-data{
+    background-color: lightgrey;
+    text-align: center;
+}
+#create-button{
+    background-color: rgb(30, 100, 197);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+}
+input{
+    border-radius: 5px;
+    border-color: white;
+    width: 35%;
+    height: 25px;
+    margin-top: 10px;
+}
